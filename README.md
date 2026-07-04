@@ -8,14 +8,14 @@ This project implements a robust physical security and access control system uti
 * **PIN Code Verification:** Allows manual passcode entry via a 4x4 membrane keypad.
 * **Actuator Control:** Controls a high-power solenoid lock securely using a Relay module.
 * **Non-Blocking Logic:** Implements efficient timing and sensor polling mechanisms avoiding standard `delay()` bottlenecks.
-* **Feedback System:** Provides immediate visual/audio feedback (LEDs and Buzzer) upon access granted or denied.
+* **Feedback System:** Provides immediate visual/audio feedback (Buzzer) upon access granted or denied.
 
 ##  Hardware & Tech Stack
 * **Microcontroller:** ESP32 (Wi-Fi/Bluetooth ready for future IoT expansion)
 * **Components:** * RFID-RC522 Reader
     * 4x4 Membrane Keypad
     * 5V Relay Module & Solenoid Lock
-    * Status LEDs & Active Buzzer
+    * Active Buzzer
 * **Language & Environment:** C++ / Arduino Framework
 
 ##  Circuit Schematic / Project Image
